@@ -106,6 +106,8 @@ df.describe()
 df.info()
 ```
 
+# EDA
+
 ```bash
 correlation_matrix = df.corr()
 plt.figure(figsize=(12, 10))
@@ -149,6 +151,8 @@ X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
 ```
 
+# Modelling
+
 ```bash
 model = tf.keras.Sequential([
     tf.keras.layers.Dense(64, activation='relu', input_shape=(X_train_scaled.shape[1],)),
@@ -186,9 +190,10 @@ plt.legend()
 plt.show()
 ```
 
+# EVALUATION
+
 ```bash
 new_data = pd.DataFrame(data=[[45, 7, 3, 120, 200, 0, 1, 160, 0, 1.5, 2, 0, 3]], columns=X.columns)
-
 
 new_data_scaled = scaler.transform(new_data)
 
@@ -198,6 +203,7 @@ predicted_risk = model.predict(new_data_scaled).flatten()[0]
 predicted_risk_percentage = round(predicted_risk * 100, 2)
 print(f'Predicted Risk of Heart Disease: {predicted_risk_percentage}%')
 ```
+![Alt text](acc.png)
 
 ```bash
 lr = LinearRegression()
