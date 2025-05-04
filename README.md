@@ -23,7 +23,7 @@ Dataset yang saya gunakan berasal dari Kaggle.<br>
 
 [Heart Attack Prediction](https://www.kaggle.com/datasets/juledz/heart-attack-prediction).
 
-### Variabel-variabel pada Diabetes Prediction with Logistic adalah sebagai berikut:
+### Variabel-variabel pada Heart Attack adalah sebagai berikut:
 Age : merepresentasikan usia pasien dalam bentuk numerik (misalnya, 52 tahun).
 
 Sex : merepresentasikan jenis kelamin pasien, dengan nilai 0 untuk perempuan dan 1 untuk laki-laki.
