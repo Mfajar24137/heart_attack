@@ -1,6 +1,6 @@
 # Laporan Proyek Machine Learning
 ### Nama :  M Fajar Zamzami
-### Nim : 21135
+### Nim : 211351077
 ### Kelas : Pagi C
 
 ## Domain Proyek
